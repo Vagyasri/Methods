@@ -9,8 +9,7 @@ def bubble_sort_by(arr)
   print new
   puts ''
 end
-# print arr.sort! {|x, y| x <=> y }
 
 bubble_sort_by(%w[hi hello hey]) do |left, right|
-  puts left.length - right.length
+   left.length - right.length
 end
